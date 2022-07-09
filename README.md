@@ -3,4 +3,6 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 
 코딩 문제풀이 결과를 자동으로 푸시하기 위한 레포지토리입니다.
 
-프로그래머스 진행
+
+### 코테 플랫폼
+ - 프로그래머스
