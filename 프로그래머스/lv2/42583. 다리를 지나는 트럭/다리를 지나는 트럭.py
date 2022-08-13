@@ -7,6 +7,7 @@ def solution(bridge_length, weight, truck_weights):
     truck_weights = deque(truck_weights)
     truck_in_bridge.append([truck_weights.popleft(), 1])
     now_weights = truck_in_bridge[0][0]
+    
     while truck_in_bridge:
         if truck_in_bridge[0][1] == bridge_length:
             pop_bridge = truck_in_bridge.popleft()
